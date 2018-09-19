@@ -1,7 +1,7 @@
 import math
 import random
 
-FIRST_PRIMES = [2, 3, 5, 7, 13, 17, 19, 23]
+FIRST_PRIMES = [2, 3, 5, 7, 11, 13, 17, 19, 23]
 
 
 def trial_division(number: int) -> int:
