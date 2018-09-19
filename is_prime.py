@@ -44,7 +44,6 @@ def miller_rabin(number: int) -> int:
             if mod_pow == (number - 1):
                 break
             else:
-                i = i + 1
                 mod_pow = (mod_pow ** 2) % number
         else:
             return False
